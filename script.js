@@ -10,7 +10,6 @@ function strt() {
   function whole() {
     sec++;
 
-    // Here add a 0 when it less then 10 sec
     if (Number(sec) < 10) {
       sec = "0" + Number(sec);
     }
