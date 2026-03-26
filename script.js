@@ -13,7 +13,6 @@ function strt() {
     if (Number(sec) < 10) {
       sec = "0" + Number(sec);
     }
-    // Here add a 0 when it less then 10 minutes
     if (Number(minute) < 10) {
       minute = "0" + Number(minute);
     }
