@@ -16,7 +16,6 @@ function strt() {
     if (Number(minute) < 10) {
       minute = "0" + Number(minute);
     }
-    // Here add a 0 when it less then 10 hours
     if (Number(hrs) < 10) {
       hrs = "0" + Number(hrs);
     }
