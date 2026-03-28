@@ -20,13 +20,11 @@ function strt() {
       hrs = "0" + Number(hrs);
     }
 
-    // Here minute  genrating
     if (sec == "60") {
       sec = 0;
       minute++;
     }
 
-    // Here hours  genrating
     if (minute == "60") {
       minute = 0;
       hrs++;
