@@ -29,7 +29,6 @@ function strt() {
       minute = 0;
       hrs++;
     }
-    // millseconds
 
     var datee = new Date();
     var millseconds = datee.getMilliseconds();
