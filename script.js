@@ -33,7 +33,6 @@ function strt() {
     var datee = new Date();
     var millseconds = datee.getMilliseconds();
     console.log(millseconds);
-    // Here set time in span's id
 
     if ((document.getElementById("seconds").innerHTML = "00")) {
       document.getElementById("seconds").innerHTML = sec;
