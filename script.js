@@ -95,3 +95,4 @@ function stop() {
     hrs = "0" + Number(hrs);
   }
 }
+
